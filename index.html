@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltyushkaNFT Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interact with AltyushkaNFT</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <div id="mintSection" style="display: none;">
+        <h2>Mint New NFT</h2>
+        <button id="mintButton">Mint NFT</button>
+    </div>
+    <div id="transferSection" style="display: none;">
+        <h2>Transfer NFT</h2>
+        <input type="text" id="recipient" placeholder="Recipient Address">
+        <input type="number" id="tokenId" placeholder="Token ID">
+        <button id="transferButton">Transfer NFT</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
