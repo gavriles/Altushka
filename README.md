@@ -1,4 +1,7 @@
-# Altushka
+# Altushka it is fun NFT mem contract in testnet Binance Smart Chaine 
+Contract adress: 0xcb868742037649d8caf18427307bc073e529ebe9
+Link on testnet: https://testnet.bscscan.com/address/0xcb868742037649d8caf18427307bc073e529ebe9
+
 Interfaces:
 
 ERC721: This interface defines the standard ERC-721 functions and events for token management.
