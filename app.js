@@ -154,7 +154,8 @@ document.getElementById('mintButton').addEventListener('click', async () => {
         const tx = await contract.methods.mint().send({ from: accounts[0] });
         const tokenId = tx.events.Transfer.returnValues.tokenId;
         const tokenURI = await contract.methods.tokenURI(tokenId).call();
-        document.getElementById('feedback').innerHTML = `NFT minted successfully! <a href="${tokenURI}" target="_blank">View NFT</a>`;
+        const imageUrl = `${tokenURI}.png`;
+        document.getElementById('feedback').innerHTML = `NFT minted successfully! <a href="${imageUrl}" target="_blank">View NFT</a>`;
     } catch (error) {
         console.error(error);
         document.getElementById('feedback').innerText = 'Error minting NFT';
