@@ -3,23 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AltyushkaNFT Interaction</title>
+    <title>Altyushka NFT Minting Widget</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Interact with AltyushkaNFT</h1>
-    <button id="connectButton">Connect Wallet</button>
-    <div id="mintSection" style="display: none;">
-        <h2>Mint New NFT</h2>
-        <button id="mintButton">Mint NFT</button>
+    <div class="container">
+        <h1>Altyushka NFT Minting Widget</h1>
+        <div class="mint-form">
+            <input type="submit" id="mintButton" value="Mint NFT">
+        </div>
+        <div class="links-section">
+            <h2>Your Minted NFTs:</h2>
+            <ul id="nftLinks"></ul>
+        </div>
     </div>
-    <div id="transferSection" style="display: none;">
-        <h2>Transfer NFT</h2>
-        <input type="text" id="recipient" placeholder="Recipient Address">
-        <input type="number" id="tokenId" placeholder="Token ID">
-        <button id="transferButton">Transfer NFT</button>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
