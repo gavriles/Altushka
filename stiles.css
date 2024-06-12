@@ -1,20 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+.container {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    text-align: center;
 }
 
-button {
-    display: block;
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 16px;
+.mint-form {
+    margin-bottom: 20px;
 }
 
-input {
-    display: block;
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 16px;
+.links-section {
+    margin-top: 40px;
+}
+
+.nft-link {
+    margin-bottom: 10px;
 }
