@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract AltyushkaNFT {
+contract Altushka NFT {
     // State variables
     address public owner;
     uint256 public nextTokenId;
