@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Interact with AltyushkaNFT</h1>
-    <button id="connectButton">Connect Wallet</button>
-    <div id="mintSection" style="display: none;">
-        <h2>Mint New NFT</h2>
-        <button id="mintButton">Mint NFT</button>
-    </div>
-    <div id="transferSection" style="display: none;">
-        <h2>Transfer NFT</h2>
-        <input type="text" id="recipient" placeholder="Recipient Address">
-        <input type="number" id="tokenId" placeholder="Token ID">
-        <button id="transferButton">Transfer NFT</button>
+    <div class="container">
+        <h1>Interact with AltyushkaNFT</h1>
+        <button id="connectButton" class="btn">Connect Wallet</button>
+        <div id="mintSection" class="section" style="display: none;">
+            <h2>Mint New NFT</h2>
+            <button id="mintButton" class="btn">Mint NFT</button>
+        </div>
+        <div id="transferSection" class="section" style="display: none;">
+            <h2>Transfer NFT</h2>
+            <input type="text" id="recipient" class="input" placeholder="Recipient Address">
+            <input type="number" id="tokenId" class="input" placeholder="Token ID">
+            <button id="transferButton" class="btn">Transfer NFT</button>
+        </div>
+        <div id="feedback" class="feedback"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
     <script src="app.js"></script>
