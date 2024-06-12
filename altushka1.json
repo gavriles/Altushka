@@ -1,0 +1,5 @@
+{
+  "name": "Image Name",
+  "description": "Description of the image",
+  "image": "ipfs://<IPFS_HASH>"
+}
