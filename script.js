@@ -4,7 +4,7 @@
 async function mintNFT() {
     // Call the mint function of the smart contract
     // Add your contract's address and ABI here
-    const contractAddress = 'YOUR_CONTRACT_ADDRESS';
+    const contractAddress = '0xcb868742037649d8caf18427307bc073e529ebe9';
     const contractABI = [...]; // Add your contract's ABI here
 
     const web3 = new Web3(window.ethereum);
