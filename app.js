@@ -151,10 +151,10 @@ window.addEventListener('load', async () => {
 document.getElementById('mintButton').addEventListener('click', async () => {
     try {
         await contract.methods.mint().send({ from: accounts[0] });
-        alert('NFT minted successfully!');
+        document.getElementById('feedback').innerText = 'NFT minted successfully!';
     } catch (error) {
         console.error(error);
-        alert('Error minting NFT');
+        document.getElementById('feedback').innerText = 'Error minting NFT';
     }
 });
 
@@ -163,9 +163,9 @@ document.getElementById('transferButton').addEventListener('click', async () => 
     const tokenId = document.getElementById('tokenId').value;
     try {
         await contract.methods.transfer(recipient, tokenId).send({ from: accounts[0] });
-        alert('NFT transferred successfully!');
+        document.getElementById('feedback').innerText = 'NFT transferred successfully!';
     } catch (error) {
         console.error(error);
-        alert('Error transferring NFT');
+        document.getElementById('feedback').innerText = 'Error transferring NFT';
     }
 });
