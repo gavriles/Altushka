@@ -1,6 +1,5 @@
 const contractAddress = "0xcb868742037649d8caf18427307bc073e529ebe9"; // Replace with your contract address
 const contractABI = [
-    // Copy your ABI here
     {
         "inputs": [
             {
@@ -151,10 +150,11 @@ window.addEventListener('load', async () => {
 
 document.getElementById('mintButton').addEventListener('click', async () => {
     try {
-        const tx = await contract.methods.mint().send({ from: accounts[0] });
-        const tokenId = tx.events.Transfer.returnValues.tokenId;
-        const tokenURI = await contract.methods.tokenURI(tokenId).call();
-        document.getElementById('feedback').innerHTML = `NFT minted successfully! <a href="${tokenURI}" target="_blank">View NFT</a>`;
+        await contract.methods.mint().send({ from: accounts[0] });
+        const nextTokenId = await contract.methods.nextTokenId().call();
+        const tokenId = nextTokenId - 1;
+        const tokenURI = `https://purple-odd-dragonfly-67.mypinata.cloud/ipfs/QmezCJ7SY2j5BwhQewRvAPsDnqCjhPz8epCPqmtjvRXSZo/${(tokenId % 27) + 1}.jpg`;
+        document.getElementById('feedback').innerHTML = `NFT minted successfully! View your NFT <a href="${tokenURI}" target="_blank">here</a>.`;
     } catch (error) {
         console.error(error);
         document.getElementById('feedback').innerText = 'Error minting NFT';
