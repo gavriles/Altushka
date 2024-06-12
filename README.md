@@ -41,23 +41,23 @@ The contract interacts with the IPFS (InterPlanetary File System) to store token
 
 [ This is a BNB Smart Chain Testnet Testnet transaction only ]
 Transaction Hash:
-0x18f7170287a5d3c6fa54627bd5e49ac5f0cfa35a36ac013e85c02fd5d3f4451c 
+0x6d9891a9ce89fd07f13ecaaad9374e531bdeb9c887828a91b46799cd9d0c8d3b 
 Status:
 Success
 Block:
-41033387
-132 Block Confirmations
+41050236
+115863 Block Confirmations
 Timestamp:
-6 mins ago (Jun-08-2024 03:42:52 AM +UTC)
+4 days ago (Jun-08-2024 05:45:22 PM +UTC)
 Transaction Action:
 Call
-0x6055604b
+0x60806040
 Method by
 0x2859ad15...e3ea80774
 From:
 0x2859ad15A901C5Ea5FAF0E8bA361f99e3ea80774
 To:
-[  0xebe09b3d6abc26b7e6e716cc0d7ad5bf2383b206 Created ] 
+[  0xcb868742037649d8caf18427307bc073e529ebe9 Created ] 
 Value:
 BNB Smart Chain Logo
 0 BNB
@@ -65,4 +65,3 @@ BNB Smart Chain Logo
 Transaction Fee:
 Gas Price:
 4.8985 Gwei (0.0000000048985 BNB)
-0x18f7170287a5d3c6fa54627bd5e49ac5f0cfa35a36ac013e85c02fd5d3f4451c
