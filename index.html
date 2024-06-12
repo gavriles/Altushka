@@ -10,36 +10,15 @@
     <div class="container">
         <h1>Altyushka NFT Minting Widget</h1>
         <div class="mint-form">
-            <input type="submit" id="mintButton" value="Mint NFT" onclick="mintNFT()">
+            <input type="submit" id="mintButton" value="Mint NFT">
         </div>
         <div class="links-section">
             <h2>Your Minted NFTs:</h2>
             <ul id="nftLinks"></ul>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
     <script src="script.js"></script>
-    <script>
-        async function mintNFT() {
-            // Call Metamask
-            const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
-            const address = accounts[0];
-            // Check network
-            const chainId = await ethereum.request({ method: 'eth_chainId' });
-            if (chainId !== '0x61') { // Check if not Testnet BSC (chainId for BSC Testnet is 97)
-                alert("Please switch to the BSC Testnet network.");
-                return;
-            }
-            // Connect to contract and call mint function
-            const contractAddress = '0xcb868742037649d8caf18427307bc073e529ebe9'; // Contract address
-            const contractABI = [/* ABI of your contract */]; // Contract ABI
-            const contract = new ethers.Contract(contractAddress, contractABI, ethereum);
-            try {
-                const tx = await contract.mint({ from: address });
-                alert("Minting successful! Transaction hash: " + tx.hash);
-            } catch (error) {
-                alert("Error minting NFT: " + error.message);
-            }
-        }
-    </script>
 </body>
 </html>
+
