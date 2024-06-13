@@ -1,4 +1,5 @@
 # Altushka it is fun NFT mem contract in testnet Binance Smart Chain
+
 MVP Altushka NFT v1.1 - FREE TO USE in bscscan
 
 HOW TO MINT? MEDIUM GUIDE 
