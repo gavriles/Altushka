@@ -1,6 +1,9 @@
 # Altushka it is fun NFT mem contract in testnet Binance Smart Chain
 MVP Altushka NFT v1.1 - FREE TO USE in bscscan
 
+HOW TO MINT? MEDIUM GUIDE 
+[https://blockchainlogicwriter.medium.com/guide-to-using-metamask-and-minting-your-altushka-nft-on-binance-smart-chain-testnet
+](https://blockchainlogicwriter.medium.com/guide-to-using-metamask-and-minting-your-altushka-nft-on-binance-smart-chain-testnet-07fcae478ac1)
 Contract adress: 0xdf72ab181c97fa0979f1f22c3894f6d1356de0b8
 
 Link on testnet: https://testnet.bscscan.com/address/0xdf72ab181c97fa0979f1f22c3894f6d1356de0b8
