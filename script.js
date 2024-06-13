@@ -1,7 +1,7 @@
 // script.js
 
 // Define the contract address and ABI
-const contractAddress = '0xdf72ab181c97fa0979f1f22c3894f6d1356de0b8';
+const contractAddress = 0xdf72ab181c97fa0979f1f22c3894f6d1356de0b8;
 const contractABI = /* Insert your contract ABI here */;
 
 // Web3 provider
