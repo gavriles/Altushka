@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Altushka NFT</title>
+    <title>Altushka NFT Minting</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.0/dist/web3.min.js"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
-    <h1>Mint your Altushka NFT</h1>
-    <button id="connectButton">Connect Wallet</button>
+    <h1>Altushka NFT Minting</h1>
+    
+    <button id="connectWallet">Connect Wallet</button>
+    
     <div id="mintSection" style="display: none;">
+        <h2>Mint Altushka NFT</h2>
+        <p>Price: 0.0420 BNB</p>
         <button id="mintButton">Mint NFT</button>
+        <p id="feedback"></p>
     </div>
-    <div id="adminSection" style="display: none;">
-        <button id="withdrawButton">Withdraw Funds</button>
-    </div>
-    <div id="feedback"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
-    <script src="app.js"></script>
+    <div id="transferSection" style="display: none;">
+        <h2>Transfer NFT</h2>
+        <label for="recipient">Recipient Address:</label>
+        <input type="text" id="recipient" placeholder="Enter recipient address"><br><br>
+        <label for="tokenId">Token ID:</label>
+        <input type="text" id="tokenId" placeholder="Enter token ID"><br><br>
+        <button id="transferButton">Transfer NFT</button>
+        <p id="transferFeedback"></p>
+    </div>
+
+    <script>
+        // Add your JavaScript code here if needed
+    </script>
 </body>
 </html>
-
