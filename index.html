@@ -1,37 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FQ7PHSWK9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1FQ7PHSWK9');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Altushka NFT Interaction</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Altushka NFT</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Make for yore personal "Altushka" NFT</h1>
-        <button id="connectButton" class="btn">Connect Wallet</button>
-        <div id="mintSection" class="section" style="display: none;">
-            <h2>Mint New NFT</h2>
-            <button id="mintButton" class="btn">Mint NFT</button>
-        </div>
-        <div id="transferSection" class="section" style="display: none;">
-            <h2>Transfer NFT</h2>
-            <input type="text" id="recipient" class="input" placeholder="Recipient Address">
-            <input type="number" id="tokenId" class="input" placeholder="Token ID">
-            <button id="transferButton" class="btn">Transfer NFT</button>
-        </div>
-        <div id="feedback" class="feedback"></div>
+    <h1>Mint your Altushka NFT</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <div id="mintSection" style="display: none;">
+        <button id="mintButton">Mint NFT</button>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <div id="adminSection" style="display: none;">
+        <button id="withdrawButton">Withdraw Funds</button>
+    </div>
+    <div id="feedback"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
+
