@@ -1,6 +1,5 @@
 # Altushka it is fun NFT mem contract in testnet Binance Smart Chain
-MVP Altushka NFT v1.1 - FREE TO USE 
-https://gavriles.github.io/altushka/
+MVP Altushka NFT v1.1 - FREE TO USE in bscscan
 
 Contract adress: 0xdf72ab181c97fa0979f1f22c3894f6d1356de0b8
 
