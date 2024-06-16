@@ -91,3 +91,4 @@ contract Altushka {
         }
         return string(bstr);
     }
+}
