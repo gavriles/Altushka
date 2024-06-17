@@ -1,34 +1,34 @@
 # Altushka it is fun NFT mem contract in testnet Binance Smart Chain
 
-MVP Altushka NFT v1.1 - FREE TO USE in bscscan
+MVP Altushka NFT v1.2 - FREE TO USE in bscscan
 
 HOW TO MINT? MEDIUM GUIDE 
 [https://blockchainlogicwriter.medium.com/guide-to-using-metamask-and-minting-your-altushka-nft-on-binance-smart-chain-testnet
 ](https://blockchainlogicwriter.medium.com/guide-to-using-metamask-and-minting-your-altushka-nft-on-binance-smart-chain-testnet-07fcae478ac1)
 
-Contract adress: 0xdf72ab181c97fa0979f1f22c3894f6d1356de0b8
+Contract adress: 0x84693f30dd0f5ae4e99013febce2cb8ddb00ab24
 
-Link on testnet: https://testnet.bscscan.com/address/0xdf72ab181c97fa0979f1f22c3894f6d1356de0b8
+Link on testnet: [https://testnet.bscscan.com/address/0xdf72ab181c97fa0979f1f22c3894f6d1356de0b8](https://testnet.bscscan.com/address/0x84693f30dd0f5ae4e99013febce2cb8ddb00ab24)
 
 [ This is a BNB Smart Chain Testnet Testnet transaction only ]
 Transaction Hash:
-0x6632aa7f822f21d8bce72709b52dd400770cd7bac892792fb22587d6a9cbfa5e 
+0x2cd1fd101bff50dbe88c63c806cc882894c73ada69f221a107b5952ff333043a 
 Status:
 Success
 Block:
-41192331
-3352 Block Confirmations
+41282686
+10278 Block Confirmations
 Timestamp:
-2 hrs ago (Jun-13-2024 04:11:23 PM +UTC)
+8 hrs ago (Jun-16-2024 07:29:43 PM +UTC)
 Transaction Action:
 Call
 0x60806040
 Method by
-0x2859ad15...e3ea80774
+0xe7B216D8...E4A80C692
 From:
-0x2859ad15A901C5Ea5FAF0E8bA361f99e3ea80774
+0xe7B216D8374Eea4E3C6fbd0ce62Acf7E4A80C692
 To:
-[  0xcf33bef3d65f92c4dda50396c6ee09edce0022b3 Created ] 
+[  0x84693f30dd0f5ae4e99013febce2cb8ddb00ab24 Created ] 
 Value:
 BNB Smart Chain Logo
 0 BNB
